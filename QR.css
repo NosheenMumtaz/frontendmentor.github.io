@@ -1,0 +1,46 @@
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(220, 15%, 55%); /* Corrected background color */
+}
+
+.container {
+    background-color: #fff; /* White background */
+    max-width: 400px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Outfit;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    color: hsl(218, 44%, 22%); /* Corrected color value */
+    padding: 10px;
+    margin-top: 0;
+    border-radius: 5px;
+}
+
+p {
+    color: #777; /* Adjust as needed */
+    font-size: 15px;
+    margin-top: 10px;
+}
